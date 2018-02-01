@@ -5,13 +5,13 @@ html {
 body {
   font-family: Georgia, serif;
   font-size: 36px;
-  color: #252528;
-  background-color: white;
+  color: white;
+  background-color: black;
   margin: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center
 }
 
 section {
@@ -34,31 +34,25 @@ li {
 }
 
 a:link {
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:visited {
-  color: #252528;
+  color: #ddd;
 }
 
 .media {
   display: block;
-  max-width: 800px;
 }
 
 li.pane {
   margin-bottom: 2em;
   background-color: hsl(35, 10%, 97%);
-  padding-left: 1.2em;
-  padding-right: 1.2em;
-  padding-top: 1.2em;
-  padding-bottom: 1.2em;
-  margin-bottom: 2em;
+  padding: 0.5em;
+  margin-bottom: 1em;
   text-align: center;
-  border: 1px solid #ddd;
-  box-shadow: 2px 2px #e8e8e8;  
 }
 
 .entry-meta {
@@ -92,8 +86,5 @@ footer {
   
   .name {
     font-size: 1em;
-  }
-  .project {
-    max-width: 320px;
   }
 }
