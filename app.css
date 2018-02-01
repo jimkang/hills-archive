@@ -40,7 +40,6 @@ li {
 
 a:link {
   color: white;
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -54,14 +53,13 @@ a:visited {
 
 li.pane {
   margin-bottom: 2em;
-  padding: 0.5em;
+  padding: 0;
   margin-bottom: 2em;
   text-align: center;
 }
 
 .entry-meta {
   color: hsl(341, 10%, 20%);
-  font-weight: bold;
 }
 
 .media-caption {
@@ -78,6 +76,10 @@ li.pane {
 
 footer {
   padding: 2em;
+}
+
+footer a {
+  font-weight: 500;
 }
 
 @media all and (max-width: 414px) {
